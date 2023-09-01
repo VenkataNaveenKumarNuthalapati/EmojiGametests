@@ -1,0 +1,25 @@
+/* Write your code here. */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-container p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
